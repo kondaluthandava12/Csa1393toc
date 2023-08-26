@@ -1,0 +1,57 @@
+#include<string.h>
+int main()
+{
+int i,l;
+char st[100];
+printf("enter the string:");
+scanf("%[^\n]c",&st);
+l=strlen(st);
+if(st[0]=='0' && st[l-1]=='1')
+printf("string is accepted for the given condition");
+else
+printf("string is not accepted for the given condition");
+
+}
+
+output:-
+How many states in the NFA : 4
+
+How many symbols in the input
+
+Enter the input symbol 1:0
+
+Enter the input symbol 2:1
+
+How many final states: I Enter the final state 1 : 2
+
+How many transitions from state for the input: 1
+
+Enter the transition 1 from state @ for the input 01
+
+How many transitions Enter the transition
+
+from state & for the input 1:1 1 from state for the input 1:7
+
+How many transitions from state 1 for the input: 2
+
+Enter the transition 1 from state 1 for the input 0:1
+
+Enter the transition 2 from state 1 for the Input 8:2
+
+How many transitions from state 1 for the input 1: 1
+
+Enter the transition 1 from state 1 for the Input 1: 1
+
+How many transitions from state 2 for the input :
+
+How many transitions from state 2 for the Input 1:0
+
+How many transitions from state 3 for the input 0:1
+
+Enter the transition 1 from state 3 for the Input: 3
+
+How many transitions from state 3 for the input 1:2
+
+Enter the transition 1 from state 3 for the Input 1:2
+
+Enter the transition 2 from state 3 for the input 1:3
